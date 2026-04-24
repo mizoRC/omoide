@@ -5,3 +5,5 @@ dist/
 *.organized/
 .env
 .env.local
+
+.vscode/settings.json
