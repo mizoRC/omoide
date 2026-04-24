@@ -1,0 +1,14 @@
+{
+  "name": "omoide",
+  "version": "1.0.0",
+  "description": "Photo organizer CLI with Bun and Ink",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun run --watch index.ts"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "ink": "^4.4.1"
+  }
+}
