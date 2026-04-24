@@ -1,4 +1,7 @@
 # 📸 Omoide - Photo Organizer CLI
+<p align="center">
+  <img src="logo.png" width="200" alt="Omoide Logo">
+</p>
 
 Organizador de fotos CLI completo con Bun + Ink. Organiza miles de fotos por año o año-mes, extrayendo metadatos EXIF con procesamiento paralelo.
 
