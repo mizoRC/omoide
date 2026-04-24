@@ -8,7 +8,7 @@ interface AppProps {
   dryRun: boolean;
 }
 
-const Spinner: React.FC = () => {
+export const Spinner: React.FC = () => {
   const [frame, setFrame] = useState(0);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const Spinner: React.FC = () => {
   return <Text>{frames[frame]}</Text>;
 };
 
-const ProgressBar: React.FC<{ processed: number; total: number }> = ({
+export const ProgressBar: React.FC<{ processed: number; total: number }> = ({
   processed,
   total,
 }) => {
@@ -39,7 +39,7 @@ const ProgressBar: React.FC<{ processed: number; total: number }> = ({
   );
 };
 
-const YearStats: React.FC<{ stats: ProcessorStats; done: boolean }> = ({
+export const YearStats: React.FC<{ stats: ProcessorStats; done: boolean }> = ({
   stats,
   done,
 }) => {
@@ -60,7 +60,7 @@ const YearStats: React.FC<{ stats: ProcessorStats; done: boolean }> = ({
   );
 };
 
-const ErrorList: React.FC<{ errors: Array<{ file: string; error: string }> }> = ({
+export const ErrorList: React.FC<{ errors: Array<{ file: string; error: string }> }> = ({
   errors,
 }) => {
   if (errors.length === 0) return null;
