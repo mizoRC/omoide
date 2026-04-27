@@ -106,6 +106,15 @@ export function isImageFile(filePath: string): boolean {
     ".cr2",
     ".nef",
     ".arw",
+    // Videos
+    ".mp4",
+    ".mov",
+    ".m4v",
+    ".3gp",
+    ".avi",
+    ".mkv",
+    ".mpg",
+    ".mpeg",
   ];
   const ext = path.extname(filePath).toLowerCase();
   return imageExtensions.includes(ext);
